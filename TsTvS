@@ -89,7 +89,7 @@ head = char.Head
  
 local Scrn = Instance.new("Part", torso)
 Scrn.Size = Vector3.new(13.346, 6.881, 0.05)
-Scrn.Position = Vector3.new(torso.Position)
+Scrn.Position = torso.Position+0,0,1
 Scrn.Orientation = Vector3.new(-20, 0, 0)
  
  
